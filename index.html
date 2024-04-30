@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">    
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tags">Tags</a></li>
+                    <li><a href="#grid-one">Mercado</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#tabela">Tabela</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>O que é<br>HTML</h2>
+                <p>HTML é a sigla para HyperText Markup Language, que por sua vez significa Linguagem de Marcação de
+                    Hipertexto.
+                    Ou seja, na abreviação há um elemento que diferencia o HTML de outras linguagens utilizadas em
+                    sistemas informáticos e que é a MARCAÇÃO.
+                    Esse é o ponto de diferenciação do HTML e que ficará mais evidente logo mais.</p>
+            </div>
+            <div class="intro-img"><img src="assets/img/htmlimg.svg"
+                    alt="o desenho de uma mulher desenvolvendo em um computador"></div>
+        </div>
+    </section>
+
+    <section id="tags" class="white-bg section">
+        <div class="main-content tag-content">
+            <h2>Tags HTML</h2>
+            <p> <b>O que são tags HTML?</b> <br>
+                Tags HTML são instruções que informam ao navegador como formatar o texto. Você pode usar tags para
+                definir itálico,
+                quebras de linha, objetos, bullet points e muito mais.
+                Essas tags estão presentes no HTML (Hypertext Markup Language) de todas as páginas da internet.</p> <br>
+            <p><b>Como as páginas leem as tags HTML? </b><br>
+                Os servidores leem o código HTML para entender e renderizar o conteúdo corretamente. Essa leitura é
+                feita de cima para baixo,
+                da mesma forma que você está lendo este artigo agora.
+                Você pode usar quantas tags quiser para formatar o conteúdo. No entanto, existem algumas regras
+                essenciais sobre tags HTML que você precisará seguir.</p><br>
+            <p><b>Como verificar as tags HTML do seu site</b><br>
+                Para verificar se seu site usa tags HTML corretamente, você pode fazer uma auditoria de SEO. Ferramentas
+                como a Auditoria do site, da Semrush,
+                verificam se as tags e atributos HTML estão corretos e se suas páginas usam HTML em excesso.</p>
+        </div>
+
+    </section>
+
+    <section id="grid-one" class=" grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Mercado de Trabalho</h2>
+            <p class="grid-description">Onde trabalhar ?</p>
+            <div class="grid">
+                <article>
+                    <h3>Websites</h3>
+                    <p>Empresas de todos os setores precisam de websites para estabelecer sua presença online. Como
+                        desenvolvedor com conhecimentos em HTML e CSS, você terá a habilidade de criar websites
+                        atraentes,
+                        funcionais e responsivos, de acordo com as necessidades dos clientes.</p>
+                </article>
+                <article>
+                    <h3>Marketing</h3>
+                    <p>
+                        Agências de marketing digital são outra opção de carreira para desenvolvedores com habilidades
+                        em
+                        HTML e CSS. Essas agências geralmente trabalham com uma ampla gama de clientes e projetos,
+                        criando
+                        websites, landing pages e outros materiais digitais.</p>
+                </article>
+                <article>
+                    <h3>Freelancer</h3>
+                    <p>Se você preferir trabalhar de forma independente, pode explorar uma carreira como freelancer.
+                        Existem
+                        várias plataformas online que permitem que desenvolvedores freelancers ofereçam seus serviços
+                        para
+                        clientes em todo o mundo.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class=" grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grid-description">Exemplo de grid com imagens.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random-image-from-unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="randon-image-from-unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="randon-image-from-unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random-image-from-unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="randon-image-from-unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="randon-image-from-unsplash" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tabela" class="white-bg section">
+        <div class="main-content tag-content">
+            <h2>Tabelas HTML</h2>
+            <p> <b>O que é o elemento "table"?</b> <br>
+            <p>O elemento "table" HTML representa dados tabulares — isto é, informações apresentadas em uma tabela
+                bidimensional composta por linhas e colunas de células contendo dados .</p> <br>
+            <div class="responsive-table">
+                <table>
+                    <caption><b>Exemplo de Tabela</b></caption>
+                    <thead>
+                        <tr>
+                            <th>Titulo 1</th>
+                            <th>Titulo 2</th>
+                            <th>Titulo 3</th>
+                            <th>Titulo 4</th>
+                            <th>Titulo 5</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Conteúdo 1</td>
+                            <td>Conteúdo 2</td>
+                            <td>Conteúdo 3</td>
+                            <td>Conteúdo 4</td>
+                            <td>Conteúdo 5</td>
+                        </tr>
+                        <tr>
+                            <td>Conteúdo 1</td>
+                            <td>Conteúdo 2</td>
+                            <td>Conteúdo 3</td>
+                            <td>Conteúdo 4</td>
+                            <td>Conteúdo 5</td>
+                        </tr>
+                        <tr>
+                            <td>Conteúdo 1</td>
+                            <td>Conteúdo 2</td>
+                            <td>Conteúdo 3</td>
+                            <td>Conteúdo 4</td>
+                            <td>Conteúdo 5</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Rodapé</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Entre em contato com a gente.</h2>
+                <p>Este é um exemplo de um formulário criado em HTML e estilizado em CSS. Duas ferramentas de
+                    desenvolvimento,
+                    que de modo geral podem ser definidas como linguagens de programação porém não são exatamente isso,
+                    esta mais para linguagem de marcação no caso do HTML.
+                </p>
+            </div>
+            <div class="intro-img"><img src="assets/img/contact-us.svg"
+                    alt="o desenho de uma mulher segurando uma carta"></div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Mande seu email.</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">Primeiro Nome</label>
+                        <input type="text" name="first-name" id="fisrt-name" placeholder="Primeiro Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Último Nome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Seu Email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30"
+                        rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Enviar Mensagem</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer id="footer" class="white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://www.instagram.com/whiago_costa/"><b>Feito por Whiago Costa 🚀</b></a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
